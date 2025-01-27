@@ -1,0 +1,13 @@
+How to install:
+# Using npm
+npm install file-saver
+
+# Using yarn
+yarn add file-saver
+
+Example usage:
+import { saveAs } from 'file-saver';
+
+// Example: Save a simple text file
+const blob = new Blob(["Hello, world!"], { type: "text/plain;charset=utf-8" });
+saveAs(blob, "example.txt");
