@@ -1,0 +1,26 @@
+How to install:
+# Using npm
+npm install react-barcodes
+
+# Using yarn
+yarn add react-barcodes
+
+Note: If you meant react-barcode, the install command would be:
+npm install react-barcode
+# or
+yarn add react-barcode
+
+Example usage (using react-barcodes):
+import React from 'react';
+import Barcode from 'react-barcodes';
+
+function App() {
+  return (
+    <div>
+      <h1>My Barcode</h1>
+      <Barcode value="123456789" />
+    </div>
+  );
+}
+
+export default App;
