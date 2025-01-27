@@ -1,0 +1,14 @@
+How to install:
+# Using npm
+npm install crypto-js
+
+# Using yarn
+yarn add crypto-js
+
+Example usage:
+import CryptoJS from 'crypto-js';
+
+// Example: Generating a SHA256 hash
+const message = "Hello, world!";
+const hash = CryptoJS.SHA256(message).toString();
+console.log(hash);
