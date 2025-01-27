@@ -1,0 +1,17 @@
+How to install:
+# Using npm
+npm install jszip
+
+# Using yarn
+yarn add jszip
+
+Example usage:
+import JSZip from 'jszip';
+
+// Example: Creating a ZIP and adding files
+const zip = new JSZip();
+zip.file("hello.txt", "Hello World\n");
+zip.generateAsync({ type: "blob" }).then(function (content) {
+  // The "content" is a Blob
+  // You can now trigger a download, for example using FileSaver.js
+});
