@@ -1,0 +1,21 @@
+How to install:
+# Using npm
+npm install papaparse
+
+# Using yarn
+yarn add papaparse
+
+Example usage (in a React/JS project):
+import Papa from 'papaparse';
+
+// Example: Parsing a CSV string
+const csvData = `name,age
+John,30
+Jane,28`;
+
+Papa.parse(csvData, {
+  header: true,
+  complete: function(results) {
+    console.log(results.data); // [{ name: 'John', age: '30' }, { name: 'Jane', age: '28' }]
+  }
+});
