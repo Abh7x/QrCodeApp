@@ -32,3 +32,11 @@ Especially helpful for client-side generation and immediate download of files.
 Why you might need it:
 This library generates barcodes in React applications.
 If you need to display or generate barcodes on the fly (e.g., shipping labels, product labels), libraries like react-barcodes or react-barcode can render them as SVG or Canvas elements.
+
+Summary
+Papa Parse: for parsing CSV data.
+Crypto-JS: for cryptographic functions (hashing, encryption, etc.).
+JSZip: for creating and reading ZIP archives on the client side.
+FileSaver (file-saver): for saving files (like CSVs, PDFs, images) from the browser to your user’s device.
+react-barcodes (or react-barcode): for generating barcodes in React.
+If your application relies on any of these functionalities—CSV handling, encryption, zipping files, saving files, or generating barcodes—then you need to install and import these libraries to use them in your code.
